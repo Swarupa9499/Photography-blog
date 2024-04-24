@@ -1,0 +1,489 @@
+/*-------------------------- banner css start---------------------------*/
+#banner {
+    background: url("/Images/hero-banner.jpg")center center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+#banner .overlay {
+    background-color: rgba(0, 0, 0, 0.63);
+    width: 100%;
+    padding: 80px;
+}
+
+#banner .banner-content {
+    color: #fff;
+    text-align: center;
+}
+
+#banner h1 {
+    font-size: 36px;
+    padding: 0px 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.banner-head {
+    width: 32ch;
+    animation: typing 2s steps(10), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid;
+    font-family: monospace;
+    margin: 0 auto;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+#banner .banner-text {
+    background-color: rgb(75, 86, 89, 0.44);
+    box-shadow: -2px 0px 20px 3px rgb(255, 255, 255, 0.59);
+    padding: 50px;
+    margin-top: 30px;
+}
+
+#banner .banner-text p {
+    font-size: 20px;
+    line-height: 27px;
+    color: #ffffff;
+}
+
+
+/*-------------------------- banner css end---------------------------*/
+
+/*--------------------------light blue style--------------------------*/
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.blog-head {
+    text-align: center;
+    padding: 40px;
+}
+
+.blog-head h2 {
+    font-size: 30px;
+    padding: 10px;
+    color: #2ab5bd;
+}
+
+.blog-head p {
+    font-size: 18px;
+    color: #857f7f;
+}
+
+.blog-post {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2ab5bd;
+    flex-wrap: wrap;
+}
+
+.blog-card {
+    width: 50%;
+    padding: 20px;
+    align-items: center;
+}
+
+.blog-card p {
+    font-size: 22px;
+    color: #ffffff;
+}
+
+.blog-card ul {
+    font-size: 22px;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.blog-card img {
+    width: 100%;
+    border: 15px solid #ccc;
+    transition: all 0.7s ease-in-out;
+}
+
+.blog-card img:hover {
+    box-shadow: -1px 1px 31px 5px rgba(91, 94, 94, 0.59);
+    filter: contrast(1.5);
+    filter: saturate(1.3);
+}
+
+.blog-card iframe {
+    width: 100%;
+    border: 15px solid #ccc;
+    transition: all 0.7s ease-in-out;
+}
+
+.blog-card iframe:hover {
+    box-shadow: -1px 1px 31px 5px rgba(91, 94, 94, 0.59);
+    filter: contrast(1.5);
+    filter: saturate(1.3);
+}
+
+
+
+/*--------------------------dark style---------------------------*/
+
+.blog-head-dark {
+    text-align: center;
+    padding: 40px;
+}
+
+.blog-head-dark h2 {
+    font-size: 30px;
+    padding: 10px;
+    color: #000000;
+}
+
+.blog-head-dark p {
+    font-size: 18px;
+    color: #857f7f;
+}
+
+.blog-post-dark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    flex-wrap: wrap;
+}
+
+.blog-card-dark {
+    width: 50%;
+    padding: 20px;
+    align-items: center;
+}
+
+.blog-card-dark p {
+    font-size: 22px;
+    color: #ffffff;
+}
+
+.blog-card-dark ul {
+    font-size: 22px;
+    color: #ffffff;
+    padding-left: 20px;
+}
+
+.blog-card-dark img {
+    width: 100%;
+    border: 15px solid #ccc;
+    transition: all 0.7s ease-in-out;
+}
+
+.blog-card-dark img:hover {
+    box-shadow: -1px 1px 31px 5px rgba(228, 228, 228, 0.59);
+    filter: contrast(1.5);
+    filter: saturate(1.3);
+}
+
+.blog-card-dark iframe {
+    width: 100%;
+    border: 15px solid #ccc;
+    transition: all 0.7s ease-in-out;
+}
+
+.blog-card-dark iframe:hover {
+    box-shadow: -1px 1px 31px 5px rgba(228, 228, 228, 0.59);
+    filter: contrast(1.5);
+    filter: saturate(1.3);
+}
+
+
+
+/* --------------------about section ------------------*/
+#about {
+    background-image: linear-gradient(0deg, #857f7f, #2ab5bd);
+    padding: 20px 30px;
+
+}
+
+#about h2 {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#about p {
+    padding: 10px 10px;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+#about .about-text {
+    background-color: rgba(255, 255, 255, 0.18);
+    padding: 20px;
+}
+
+/*----------------------contact section------------------*/
+
+#contact {
+    background-image: linear-gradient(180deg, #857f7f, #2ab5bd);
+    padding: 20px 30px 50px 30px;
+
+}
+
+#contact h2 {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#contact form {
+    width: 65%;
+    margin: 0 auto;
+}
+
+#contact label,
+input,
+textarea {
+    display: block;
+    width: 100%;
+    padding: 5px 0;
+    border-style: none;
+    border-radius: 5px;
+}
+
+#contact label {
+    color: #ffffff;
+}
+
+
+#contact input:focus,
+textarea:focus {
+    box-shadow: -1px 1px 20px 5px rgba(228, 228, 228, 0.59);
+    border-style: none;
+    outline: none;
+}
+
+#contact .submitBtn {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+    font-weight: 700;
+}
+
+#contact .submitBtn:hover {
+    box-shadow: -1px 1px 20px 5px rgba(228, 228, 228, 0.59);
+    cursor: pointer;
+}
+
+
+/*---------------------footer section-----------------------*/
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 20px;
+}
+
+footer .upArrow {
+    width: 50px;
+}
+
+footer .backTo {
+    padding-bottom: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer .copy {
+    padding: 20px 0;
+}
+
+
+/*-----------------------social icons---------------------------*/
+
+#social {
+    position: fixed;
+    top: 34%;
+    left: 10px;
+    width: 60px;
+}
+
+#social ul {
+    list-style-type: none;
+}
+
+#social img {
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 11px #4f4f4f;
+    transition: all 0.5s ease-in-out;
+}
+
+#social img:hover {
+    transform: rotateY(3.142rad);
+}
+
+
+
+
+/*--------------------------medium devices screen---------------------------------
+===================================================================================*/
+@media screen and (max-width:992px) {
+
+    /*-----------------banner css---------------- */
+    #banner .overlay {
+        padding: 50px 30px;
+    }
+
+    #banner h1 {
+        font-size: 25px;
+        padding: 0px 20px;
+    }
+
+    #banner .banner-text p {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    /*--------------------- blog css-------------------- */
+
+    .blog-card {
+        width: 100%;
+        padding: 20px;
+        align-items: center;
+    }
+
+    .blog-card-dark {
+        width: 100%;
+        padding: 20px;
+        align-items: center;
+    }
+
+    /*-----------------------social icons---------------------------*/
+
+    #social {
+        position: relative;
+        left: 0;
+        top: 0;
+        background-color: #2ab5bd;
+        padding: 20px;
+        width: 80%;
+    }
+
+    #social ul {
+        list-style-type: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    #social li {
+        display: inline-block;
+    }
+}
+
+
+/*--------------------------small devices screen---------------------------------
+=================================================================================*/
+
+@media screen and (max-width:550px) {
+    .container {
+        width: 100%;
+    }
+
+    /*-----------------banner css---------------- */
+    #banner h1 {
+        font-size: 22px;
+        padding: 10px 20px;
+    }
+
+    .banner-head {
+        width: 100%;
+        animation: none;
+        white-space: wrap;
+        border: none;
+    }
+
+    #banner .banner-text p {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    #banner .banner-text {
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    /*--------------------- blog css-------------------- */
+
+    .blog-head h2 {
+        font-size: 20px;
+    }
+
+    .blog-head p {
+        font-size: 15px;
+    }
+
+    .blog-card p {
+        font-size: 15px;
+    }
+
+    .blog-card ul {
+        font-size: 15px;
+    }
+
+
+    .blog-head-dark h2 {
+        font-size: 20px;
+    }
+
+    .blog-head-dark p {
+        font-size: 15px;
+    }
+
+    .blog-card-dark p {
+        font-size: 15px;
+    }
+
+    .blog-card-dark ul {
+        font-size: 15px;
+    }
+
+
+    #about h2 {
+        font-size: 22px;
+        padding: 0 0 30px 0;
+    }
+
+    #about p {
+        font-size: 15px;
+    }
+
+    #contact h2 {
+        font-size: 20px;
+    }
+
+
+    /* ---------------------contact form css-------------- */
+    #contact form {
+        width: 100%;
+    }
+
+    /*-----------------------social icons---------------------------*/
+
+    #social {
+        width: 100%;
+    }
+}
